@@ -1,0 +1,381 @@
+
+// object specific
+.this{
+  // padding on all axis
+  &-pad-all-0,&-pad-all-0-xxs{padding:0}
+  &-pad-all-1,&-pad-all-1-xxs{padding:1rem}
+  &-pad-all-2,&-pad-all-2-xxs{padding:2rem}
+  &-pad-all-4,&-pad-all-4-xxs{padding:4rem}
+  &-pad-all-6,&-pad-all-6-xxs{padding:6rem}
+  // padding on x-axis
+  &-pad-x-0,&-pad-x-0-xxs{padding-right:0;padding-left:0}
+  &-pad-x-1,&-pad-x-1-xxs{padding-right:1rem;padding-left:1rem}
+  &-pad-x-2,&-pad-x-2-xxs{padding-right:2rem;padding-left:2rem}
+  &-pad-x-4,&-pad-x-4-xxs{padding-right:4rem;padding-left:4rem}
+  &-pad-x-6,&-pad-x-6-xxs{padding-right:6rem;padding-left:6rem}
+  // padding on y-axis
+  &-pad-y-0,&-pad-y-0-xxs{padding-top:0;padding-bottom:0}
+  &-pad-y-1,&-pad-y-1-xxs{padding-top:1rem;padding-bottom:1rem}
+  &-pad-y-2,&-pad-y-2-xxs{padding-top:2rem;padding-bottom:2rem}
+  &-pad-y-4,&-pad-y-4-xxs{padding-top:4rem;padding-bottom:4rem}
+  &-pad-y-6,&-pad-y-6-xxs{padding-top:6rem;padding-bottom:6rem}
+}
+
+// children columns
+.row,
+[class^="row-"]{
+  // padding on all axis
+  &.pad-all-0>[class^="col-"],&.pad-all-0-xxs>[class^="col-"]{padding:0}
+  &.pad-all-1>[class^="col-"],&.pad-all-1-xxs>[class^="col-"]{padding:1rem}
+  &.pad-all-2>[class^="col-"],&.pad-all-2-xxs>[class^="col-"]{padding:2rem}
+  &.pad-all-4>[class^="col-"],&.pad-all-4-xxs>[class^="col-"]{padding:4rem}
+  &.pad-all-6>[class^="col-"],&.pad-all-6-xxs>[class^="col-"]{padding:6rem}
+  // padding on x-axis
+  &.pad-x-0>[class^="col-"],&.pad-x-0-xxs>[class^="col-"]{padding-right:0;padding-left:0}
+  &.pad-x-1>[class^="col-"],&.pad-x-1-xxs>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+  &.pad-x-2>[class^="col-"],&.pad-x-2-xxs>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+  &.pad-x-4>[class^="col-"],&.pad-x-4-xxs>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+  &.pad-x-6>[class^="col-"],&.pad-x-6-xxs>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+  // padding on y-axis
+  &.pad-y-0>[class^="col-"],&.pad-y-0-xxs>[class^="col-"]{padding-top:0;padding-bottom:0}
+  &.pad-y-1>[class^="col-"],&.pad-y-1-xxs>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+  &.pad-y-2>[class^="col-"],&.pad-y-2-xxs>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+  &.pad-y-4>[class^="col-"],&.pad-y-4-xxs>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+  &.pad-y-6>[class^="col-"],&.pad-y-6-xxs>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+}
+
+// breakpoint up from small phones to large phones
+@media (min-width:$breakpoint-xs){
+  // object specific
+  .this{
+    // padding on all axis
+    &-pad-all-0-xs{padding:0}
+    &-pad-all-1-xs{padding:1rem}
+    &-pad-all-2-xs{padding:2rem}
+    &-pad-all-4-xs{padding:4rem}
+    &-pad-all-6-xs{padding:6rem}
+    // padding on x-axis
+    &-pad-x-0-xs{padding-right:0;padding-left:0}
+    &-pad-x-1-xs{padding-right:1rem;padding-left:1rem}
+    &-pad-x-2-xs{padding-right:2rem;padding-left:2rem}
+    &-pad-x-4-xs{padding-right:4rem;padding-left:4rem}
+    &-pad-x-6-xs{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &-pad-y-0-xs{padding-top:0;padding-bottom:0}
+    &-pad-y-1-xs{padding-top:1rem;padding-bottom:1rem}
+    &-pad-y-2-xs{padding-top:2rem;padding-bottom:2rem}
+    &-pad-y-4-xs{padding-top:4rem;padding-bottom:4rem}
+    &-pad-y-6-xs{padding-top:6rem;padding-bottom:6rem}
+  }
+
+  // children columns
+  .row,
+  [class^="row-"]{
+    // padding on all axis
+    &.pad-all-0-xs>[class^="col-"]{padding:0}
+    &.pad-all-1-xs>[class^="col-"]{padding:1rem}
+    &.pad-all-2-xs>[class^="col-"]{padding:2rem}
+    &.pad-all-4-xs>[class^="col-"]{padding:4rem}
+    &.pad-all-6-xs>[class^="col-"]{padding:6rem}
+    // padding on x-axis
+    &.pad-x-0-xs>[class^="col-"]{padding-right:0;padding-left:0}
+    &.pad-x-1-xs>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+    &.pad-x-2-xs>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+    &.pad-x-4-xs>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+    &.pad-x-6-xs>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &.pad-y-0-xs>[class^="col-"]{padding-top:0;padding-bottom:0}
+    &.pad-y-1-xs>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+    &.pad-y-2-xs>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+    &.pad-y-4-xs>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+    &.pad-y-6-xs>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+  }
+}
+
+// breakpoint up from large phones to small tablets
+@media (min-width:$breakpoint-sm){
+  // object specific
+  .this{
+    // padding on all axis
+    &-pad-all-0-sm{padding:0}
+    &-pad-all-1-sm{padding:1rem}
+    &-pad-all-2-sm{padding:2rem}
+    &-pad-all-4-sm{padding:4rem}
+    &-pad-all-6-sm{padding:6rem}
+    // padding on x-axis
+    &-pad-x-0-sm{padding-right:0;padding-left:0}
+    &-pad-x-1-sm{padding-right:1rem;padding-left:1rem}
+    &-pad-x-2-sm{padding-right:2rem;padding-left:2rem}
+    &-pad-x-4-sm{padding-right:4rem;padding-left:4rem}
+    &-pad-x-6-sm{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &-pad-y-0-sm{padding-top:0;padding-bottom:0}
+    &-pad-y-1-sm{padding-top:1rem;padding-bottom:1rem}
+    &-pad-y-2-sm{padding-top:2rem;padding-bottom:2rem}
+    &-pad-y-4-sm{padding-top:4rem;padding-bottom:4rem}
+    &-pad-y-6-sm{padding-top:6rem;padding-bottom:6rem}
+  }
+
+  // children columns
+  .row,
+  [class^="row-"]{
+    // padding on all axis
+    &.pad-all-0-sm>[class^="col-"]{padding:0}
+    &.pad-all-1-sm>[class^="col-"]{padding:1rem}
+    &.pad-all-2-sm>[class^="col-"]{padding:2rem}
+    &.pad-all-4-sm>[class^="col-"]{padding:4rem}
+    &.pad-all-6-sm>[class^="col-"]{padding:6rem}
+    // padding on x-axis
+    &.pad-x-0-sm>[class^="col-"]{padding-right:0;padding-left:0}
+    &.pad-x-1-sm>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+    &.pad-x-2-sm>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+    &.pad-x-4-sm>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+    &.pad-x-6-sm>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &.pad-y-0-sm>[class^="col-"]{padding-top:0;padding-bottom:0}
+    &.pad-y-1-sm>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+    &.pad-y-2-sm>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+    &.pad-y-4-sm>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+    &.pad-y-6-sm>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+  }
+}
+
+// breakpoint up from small tablets to large tablets
+@media (min-width:$breakpoint-md){
+  // object specific
+  .this{
+    // padding on all axis
+    &-pad-all-0-md{padding:0}
+    &-pad-all-1-md{padding:1rem}
+    &-pad-all-2-md{padding:2rem}
+    &-pad-all-4-md{padding:4rem}
+    &-pad-all-6-md{padding:6rem}
+    // padding on x-axis
+    &-pad-x-0-md{padding-right:0;padding-left:0}
+    &-pad-x-1-md{padding-right:1rem;padding-left:1rem}
+    &-pad-x-2-md{padding-right:2rem;padding-left:2rem}
+    &-pad-x-4-md{padding-right:4rem;padding-left:4rem}
+    &-pad-x-6-md{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &-pad-y-0-md{padding-top:0;padding-bottom:0}
+    &-pad-y-1-md{padding-top:1rem;padding-bottom:1rem}
+    &-pad-y-2-md{padding-top:2rem;padding-bottom:2rem}
+    &-pad-y-4-md{padding-top:4rem;padding-bottom:4rem}
+    &-pad-y-6-md{padding-top:6rem;padding-bottom:6rem}
+  }
+
+  // children columns
+  .row,
+  [class^="row-"]{
+    // padding on all axis
+    &.pad-all-0-md>[class^="col-"]{padding:0}
+    &.pad-all-1-md>[class^="col-"]{padding:1rem}
+    &.pad-all-2-md>[class^="col-"]{padding:2rem}
+    &.pad-all-4-md>[class^="col-"]{padding:4rem}
+    &.pad-all-6-md>[class^="col-"]{padding:6rem}
+    // padding on x-axis
+    &.pad-x-0-md>[class^="col-"]{padding-right:0;padding-left:0}
+    &.pad-x-1-md>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+    &.pad-x-2-md>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+    &.pad-x-4-md>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+    &.pad-x-6-md>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &.pad-y-0-md>[class^="col-"]{padding-top:0;padding-bottom:0}
+    &.pad-y-1-md>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+    &.pad-y-2-md>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+    &.pad-y-4-md>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+    &.pad-y-6-md>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+  }
+}
+
+// breakpoint up from large tablets to laptops
+@media (min-width:$breakpoint-lg){
+  // object specific
+  .this{
+    // padding on all axis
+    &-pad-all-0-lg{padding:0}
+    &-pad-all-1-lg{padding:1rem}
+    &-pad-all-2-lg{padding:2rem}
+    &-pad-all-4-lg{padding:4rem}
+    &-pad-all-6-lg{padding:6rem}
+    // padding on x-axis
+    &-pad-x-0-lg{padding-right:0;padding-left:0}
+    &-pad-x-1-lg{padding-right:1rem;padding-left:1rem}
+    &-pad-x-2-lg{padding-right:2rem;padding-left:2rem}
+    &-pad-x-4-lg{padding-right:4rem;padding-left:4rem}
+    &-pad-x-6-lg{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &-pad-y-0-lg{padding-top:0;padding-bottom:0}
+    &-pad-y-1-lg{padding-top:1rem;padding-bottom:1rem}
+    &-pad-y-2-lg{padding-top:2rem;padding-bottom:2rem}
+    &-pad-y-4-lg{padding-top:4rem;padding-bottom:4rem}
+    &-pad-y-6-lg{padding-top:6rem;padding-bottom:6rem}
+  }
+
+  // children columns
+  .row,
+  [class^="row-"]{
+    // padding on all axis
+    &.pad-all-0-lg>[class^="col-"]{padding:0}
+    &.pad-all-1-lg>[class^="col-"]{padding:1rem}
+    &.pad-all-2-lg>[class^="col-"]{padding:2rem}
+    &.pad-all-4-lg>[class^="col-"]{padding:4rem}
+    &.pad-all-6-lg>[class^="col-"]{padding:6rem}
+    // padding on x-axis
+    &.pad-x-0-lg>[class^="col-"]{padding-right:0;padding-left:0}
+    &.pad-x-1-lg>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+    &.pad-x-2-lg>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+    &.pad-x-4-lg>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+    &.pad-x-6-lg>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &.pad-y-0-lg>[class^="col-"]{padding-top:0;padding-bottom:0}
+    &.pad-y-1-lg>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+    &.pad-y-2-lg>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+    &.pad-y-4-lg>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+    &.pad-y-6-lg>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+  }
+}
+
+// breakpoint up from laptops to desktops
+@media (min-width:$breakpoint-xl){
+  // object specific
+  .this{
+    // padding on all axis
+    &-pad-all-0-xl{padding:0}
+    &-pad-all-1-xl{padding:1rem}
+    &-pad-all-2-xl{padding:2rem}
+    &-pad-all-4-xl{padding:4rem}
+    &-pad-all-6-xl{padding:6rem}
+    // padding on x-axis
+    &-pad-x-0-xl{padding-right:0;padding-left:0}
+    &-pad-x-1-xl{padding-right:1rem;padding-left:1rem}
+    &-pad-x-2-xl{padding-right:2rem;padding-left:2rem}
+    &-pad-x-4-xl{padding-right:4rem;padding-left:4rem}
+    &-pad-x-6-xl{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &-pad-y-0-xl{padding-top:0;padding-bottom:0}
+    &-pad-y-1-xl{padding-top:1rem;padding-bottom:1rem}
+    &-pad-y-2-xl{padding-top:2rem;padding-bottom:2rem}
+    &-pad-y-4-xl{padding-top:4rem;padding-bottom:4rem}
+    &-pad-y-6-xl{padding-top:6rem;padding-bottom:6rem}
+  }
+
+  // children columns
+  .row,
+  [class^="row-"]{
+    // padding on all axis
+    &.pad-all-0-xl>[class^="col-"]{padding:0}
+    &.pad-all-1-xl>[class^="col-"]{padding:1rem}
+    &.pad-all-2-xl>[class^="col-"]{padding:2rem}
+    &.pad-all-4-xl>[class^="col-"]{padding:4rem}
+    &.pad-all-6-xl>[class^="col-"]{padding:6rem}
+    // padding on x-axis
+    &.pad-x-0-xl>[class^="col-"]{padding-right:0;padding-left:0}
+    &.pad-x-1-xl>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+    &.pad-x-2-xl>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+    &.pad-x-4-xl>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+    &.pad-x-6-xl>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &.pad-y-0-xl>[class^="col-"]{padding-top:0;padding-bottom:0}
+    &.pad-y-1-xl>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+    &.pad-y-2-xl>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+    &.pad-y-4-xl>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+    &.pad-y-6-xl>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+  }
+}
+
+// breakpoint up from desktops to large screens
+@media (min-width:$breakpoint-xxl){
+  // object specific
+  .this{
+    // padding on all axis
+    &-pad-all-0-xxl{padding:0}
+    &-pad-all-1-xxl{padding:1rem}
+    &-pad-all-2-xxl{padding:2rem}
+    &-pad-all-4-xxl{padding:4rem}
+    &-pad-all-6-xxl{padding:6rem}
+    // padding on x-axis
+    &-pad-x-0-xxl{padding-right:0;padding-left:0}
+    &-pad-x-1-xxl{padding-right:1rem;padding-left:1rem}
+    &-pad-x-2-xxl{padding-right:2rem;padding-left:2rem}
+    &-pad-x-4-xxl{padding-right:4rem;padding-left:4rem}
+    &-pad-x-6-xxl{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &-pad-y-0-xxl{padding-top:0;padding-bottom:0}
+    &-pad-y-1-xxl{padding-top:1rem;padding-bottom:1rem}
+    &-pad-y-2-xxl{padding-top:2rem;padding-bottom:2rem}
+    &-pad-y-4-xxl{padding-top:4rem;padding-bottom:4rem}
+    &-pad-y-6-xxl{padding-top:6rem;padding-bottom:6rem}
+  }
+
+  // children columns
+  .row,
+  [class^="row-"]{
+    // padding on all axis
+    &.pad-all-0-xxl>[class^="col-"]{padding:0}
+    &.pad-all-1-xxl>[class^="col-"]{padding:1rem}
+    &.pad-all-2-xxl>[class^="col-"]{padding:2rem}
+    &.pad-all-4-xxl>[class^="col-"]{padding:4rem}
+    &.pad-all-6-xxl>[class^="col-"]{padding:6rem}
+    // padding on x-axis
+    &.pad-x-0-xxl>[class^="col-"]{padding-right:0;padding-left:0}
+    &.pad-x-1-xxl>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+    &.pad-x-2-xxl>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+    &.pad-x-4-xxl>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+    &.pad-x-6-xxl>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &.pad-y-0-xxl>[class^="col-"]{padding-top:0;padding-bottom:0}
+    &.pad-y-1-xxl>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+    &.pad-y-2-xxl>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+    &.pad-y-4-xxl>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+    &.pad-y-6-xxl>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+  }
+}
+
+// breakpoint up from desktops to huge screens
+@media (min-width:$breakpoint-max){
+  // object specific
+  .this{
+    // padding on all axis
+    &-pad-all-0-max{padding:0}
+    &-pad-all-1-max{padding:1rem}
+    &-pad-all-2-max{padding:2rem}
+    &-pad-all-4-max{padding:4rem}
+    &-pad-all-6-max{padding:6rem}
+    // padding on x-axis
+    &-pad-x-0-max{padding-right:0;padding-left:0}
+    &-pad-x-1-max{padding-right:1rem;padding-left:1rem}
+    &-pad-x-2-max{padding-right:2rem;padding-left:2rem}
+    &-pad-x-4-max{padding-right:4rem;padding-left:4rem}
+    &-pad-x-6-max{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &-pad-y-0-max{padding-top:0;padding-bottom:0}
+    &-pad-y-1-max{padding-top:1rem;padding-bottom:1rem}
+    &-pad-y-2-max{padding-top:2rem;padding-bottom:2rem}
+    &-pad-y-4-max{padding-top:4rem;padding-bottom:4rem}
+    &-pad-y-6-max{padding-top:6rem;padding-bottom:6rem}
+  }
+
+  // children columns
+  .row,
+  [class^="row-"]{
+    // padding on all axis
+    &.pad-all-0-max>[class^="col-"]{padding:0}
+    &.pad-all-1-max>[class^="col-"]{padding:1rem}
+    &.pad-all-2-max>[class^="col-"]{padding:2rem}
+    &.pad-all-4-max>[class^="col-"]{padding:4rem}
+    &.pad-all-6-max>[class^="col-"]{padding:6rem}
+    // padding on x-axis
+    &.pad-x-0-max>[class^="col-"]{padding-right:0;padding-left:0}
+    &.pad-x-1-max>[class^="col-"]{padding-right:1rem;padding-left:1rem}
+    &.pad-x-2-max>[class^="col-"]{padding-right:2rem;padding-left:2rem}
+    &.pad-x-4-max>[class^="col-"]{padding-right:4rem;padding-left:4rem}
+    &.pad-x-6-max>[class^="col-"]{padding-right:6rem;padding-left:6rem}
+    // padding on y-axis
+    &.pad-y-0-max>[class^="col-"]{padding-top:0;padding-bottom:0}
+    &.pad-y-1-max>[class^="col-"]{padding-top:1rem;padding-bottom:1rem}
+    &.pad-y-2-max>[class^="col-"]{padding-top:2rem;padding-bottom:2rem}
+    &.pad-y-4-max>[class^="col-"]{padding-top:4rem;padding-bottom:4rem}
+    &.pad-y-6-max>[class^="col-"]{padding-top:6rem;padding-bottom:6rem}
+  }
+}

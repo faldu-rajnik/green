@@ -19,3 +19,24 @@
     }
 
 }
+.btn-secondary
+{
+    font-size: 1rem;
+    color: $primary-color;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    background-color: $white-color;
+    padding: 15px 30px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid $primary-color;
+    display: inline-block;
+    &:hover,&:active,&:focus{
+        border: 1px solid $primary-color;
+        background-color: $primary-color;
+        color: $white-color;
+        transition: 0.5s ease-in;
+    }
+
+}

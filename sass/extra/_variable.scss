@@ -1,7 +1,20 @@
-$secondary-color: #121212;
 $primary-color: #3a9943;
 $white-color:#ffffff;
 $font-family_1: 'Inter', sans-serif;
 $font-family_2: inherit;
+$secondary-color: #121212;
 $dark-green:#0F251E;
 $dark-bg:#0D1613;
+$bg-vista-white:#f3f5f7;
+$bg-racing-green:#0D1613;
+// Base Rules
+$base-font-size:16px;
+
+// Breakpoints
+$breakpoint-xs:480px;
+$breakpoint-sm:768px;
+$breakpoint-md:1024px;
+$breakpoint-lg:1200px;
+$breakpoint-xl:1440px;
+$breakpoint-xxl:1600px; 
+$breakpoint-max: 1920px;
