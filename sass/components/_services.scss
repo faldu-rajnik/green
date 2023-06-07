@@ -1,177 +1,172 @@
 .why-choose-wrap {
     position: relative;
-    background-color: $dark-bg;
     padding: 4rem 0px;
     &.style1 {
-        .lc-item {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            align-items: center;
-            margin: 0 0 25px;
-            .lc-icon {
-                background: $dark-green;
-                width: 45px;
-                height: 45px;
-                position: relative;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 7px;
-                text-align: center;
-                
-                i {
-                    color: $white-color;
-                    font-size: 26px;
-                    line-height: 0.8px;
-                }
-            }
-
-            &:hover {
-                .lc-icon {
-                    background: $primary-color;
-                }
-            }
-
-            .lc-text {
-                h5 {
-                    a {
-                        color:$white-color;
-                    }
-                }
-
-            }
-            .lc-text {
-                width: calc(100% - 60px);
-                margin-left: 15px;
-                p {
-                    margin: 0;
-                    color: $white-color;
-                    opacity: 0.7;
-                    max-width: 530px;
-                    font-size: 1rem;
-                }
-                h5 {
-                    font-weight: 500;
-                    line-height: 1.3;
-                    margin: 0 0 10px;
-                    color: $white-color;
-                }
-                
-            }
+      .lc-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 0 25px;
+        .lc-icon {
+          background: $dark-green;
+          width: 45px;
+          height: 45px;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 7px;
+          text-align: center;
+  
+          i {
+            color: $white-color;
+            font-size: 26px;
+            line-height: 0.8px;
+          }
         }
-        .btn-primary {
-            margin-top: 1rem;
-            @media(max-width:$breakpoint-lg)
-            {   
-                margin-bottom: 3rem;
-            }
-            @media(max-width:$breakpoint-md)
-            {
-                margin-bottom: 2rem;
-            }
-           
+  
+        &:hover {
+          .lc-icon {
+            background: $primary-color;
+          }
         }
-       
-    }
-   
-    .content-title {
-        position: relative;
-        margin-bottom: 2rem;
-        h2 {
-            font-size: 3rem;
-            font-weight: 700;
-            line-height: 1.3;
+  
+        .lc-text {
+          h5 {
+            a {
+              color: $white-color;
+            }
+          }
+        }
+        .lc-text {
+          width: calc(100% - 60px);
+          margin-left: 15px;
+          p {
             margin: 0;
-            display: inline-block;
             color: $white-color;
-        }
-        p {
             opacity: 0.7;
+            max-width: 530px;
+            font-size: 1rem;
+          }
+          h5 {
+            font-weight: 500;
+            line-height: 1.3;
+            margin: 0 0 10px;
             color: $white-color;
-            font-size: 1.5rem;
+          }
         }
+      }
+      .btn-primary {
+        margin-top: 1rem;
+        @media (max-width: $breakpoint-lg) {
+          margin-bottom: 3rem;
+        }
+        @media (max-width: $breakpoint-md) {
+          margin-bottom: 2rem;
+        }
+      }
     }
-    .content-subtitle
-    {
-        margin-bottom: 2rem;
+  
+    .content-title {
+      position: relative;
+      margin-bottom: 2rem;
+      h2 {
+        font-weight: 700;
+        line-height: 1.3;
+        margin: 0;
+        display: inline-block;
+        color: $white-color;
+      }
+      p {
+        opacity: 0.7;
+        color: $white-color;
+        font-size: 1.5rem;
+      }
     }
-    
-    
-.lc-video-wrap {
-    position: relative;
-    @media(max-width:$breakpoint-lg)
-    {
+    .content-subtitle {
+      margin-bottom: 2rem;
+      h3 {
+        margin-bottom: 1rem;
+      }
+    }
+  
+    .lc-video-wrap {
+      position: relative;
+      @media (max-width: $breakpoint-lg) {
         display: none;
-    }
-    .lc-video {
+      }
+      .lc-video {
         height: 548px;
         border-radius: 110px 110px 0 0;
         z-index: 1;
         position: relative;
-    }
-    .bg-f {
+      }
+      .bg-f {
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #ddd;
-    }
-    .lc-bg-1 {
+      }
+      .lc-bg-1 {
         background-image: url(../img/wh-bg.jpg);
+      }
     }
-    
-}
-.counter-about
-{
-
-    padding-top: 5rem;
-    @media(max-width:$breakpoint-lg)
-    {
+    .counter-about {
+      padding-top: 5rem;
+      @media (max-width: $breakpoint-lg) {
         padding-top: 1rem;
-    }
-    .fun-facts-card {
+      }
+      .fun-facts-card {
         border-radius: 10px;
         text-align: center;
         border-radius: 20px;
         position: relative;
         padding: 30px 10px;
         margin: 0 0 25px;
-        background: -webkit-gradient(linear, right top, left top, from(#24a777), color-stop(35%, #24a75e), to(#24a74f));
-        background: linear-gradient(-90deg, #24a777 0%, #24a75e 35%, #24a74f 100%);
+        background: -webkit-gradient(
+          linear,
+          right top,
+          left top,
+          from(#24a777),
+          color-stop(35%, #24a75e),
+          to(#24a74f)
+        );
+        background: linear-gradient(
+          -90deg,
+          #24a777 0%,
+          #24a75e 35%,
+          #24a74f 100%
+        );
         p {
-            color: $white-color;
-            font-size: 1rem;
-            font-weight: 600;
-            margin: 0 0 10px;
+          color: $white-color;
+          font-size: 1rem;
+          font-weight: 600;
+          margin: 0 0 10px;
         }
         h2 {
-            font-size: 4rem;
-            line-height: 1;
-            margin: 0;
-            font-weight: 800;
-            color: $white-color;
-            -webkit-text-stroke: 1.5px $white-color;
-            -webkit-text-fill-color: transparent;
+          font-size: 4rem;
+          line-height: 1;
+          margin: 0;
+          font-weight: 800;
+          color: $white-color;
+          -webkit-text-stroke: 1.5px $white-color;
+          -webkit-text-fill-color: transparent;
         }
         i {
-            color: $white-color;
-            font-size: 2rem;
-            line-height: 1;
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            background: $primary-color;
-            padding: 6px;
-            border-radius: 5px;
+          color: $white-color;
+          font-size: 2rem;
+          line-height: 1;
+          position: absolute;
+          top: 15px;
+          left: 15px;
+          background: $primary-color;
+          padding: 6px;
+          border-radius: 5px;
         }
+      }
     }
-}
-}
-
-
-
-
-
-
+  }
+  

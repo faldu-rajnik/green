@@ -1,121 +1,105 @@
-.bg-vista-white {
-    background-color: $bg-vista-white;
-}
-.bg-racing-green
-{
-    background-color: $bg-racing-green;
-}
-.about-wrap.style1,.about-wrap.style2 {
+.about-wrap.style1,
+.about-wrap.style2 {
+  position: relative;
+  padding: 4rem 0px;
+  .about-img-area {
     position: relative;
-    padding: 4rem 0px;
-}
-
-
-.about-img-area {
-    position: relative;
-}
-.about-img-area .about-shape-1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    z-index: 0;
-}
-.about-img-area .water-shape-2 {
-    position: absolute;
-    top: 0;
-    right: 20px;
-}
-.about-img-item {
-    position: relative;
-    height: 400px;
-    @media(max-width:$breakpoint-lg)
-    {
+    .about-shape-1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      z-index: 0;
+    }
+    .water-shape-2 {
+      position: absolute;
+      top: 0;
+      right: 20px;
+    }
+    .about-img-item {
+      position: relative;
+      height: 400px;
+      @media (max-width: $breakpoint-lg) {
         height: auto;
+      }
+      .bg-f {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #ddd;
+      }
+      .ab-bg-1 {
+        background-image: url(../../img/home-grass-blades.jpg);
+      }
+      .ab-bg-2 {
+        background-image: url(../../img/home-weeds-in-lawn.jpg);
+      }
+      .ab-bg-3 {
+        background-image: url(../../img/home-patio-with-fire-pit.jpg);
+      }
+      .ab-bg-4 {
+        background-image: url(../../img/home-paver-patio-outdoor-living.jpg);
+      }
+      .about-bg-one {
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 55%;
+        border-radius: 100px 0 0 0;
+        @media (max-width: $breakpoint-lg) {
+          width: 100%;
+          position: static;
+        }
+      }
+      .about-bg-two {
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 60%;
+        border: 10px solid #fff;
+        border-radius: 0 0 100px 0;
+        -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        @media (max-width: $breakpoint-lg) {
+          width: 100%;
+          position: static;
+        }
+      }
     }
-}
-.bg-f {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #ddd;
-}
-.ab-bg-1 {
-    background-image: url(../../img/home-grass-blades.jpg);
-}
-.ab-bg-2 {
-    background-image: url(../../img/home-weeds-in-lawn.jpg);
-}
-.ab-bg-3 {
-    background-image: url(../../img/home-patio-with-fire-pit.jpg);
-}
-.ab-bg-4 {
-    background-image: url(../../img/home-paver-patio-outdoor-living.jpg);
-}
-.about-img-item .about-bg-one {
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 55%;
-    border-radius: 100px 0 0 0;
-    @media(max-width:$breakpoint-lg)
-    {
-        width: 100%;
-        position: static;
-    }
+  }
 }
 
-.about-img-item .about-bg-two {
-    height: 300px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 60%;
-    border: 10px solid #fff;
-    border-radius: 0 0 100px 0;
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    @media(max-width:$breakpoint-lg)
-    {
-        width: 100%;
-        position: static;
-    }
-}
-
-.content-title {
-    position: relative;
-}
 .about-wrap .content-title h2 {
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 1.3;
-    margin: 0;
-    display: inline-block;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  display: inline-block;
 }
-.about-wrap.style1 h2{
-    @media(max-width:$breakpoint-lg)
-    {
-        margin-top: 3rem;
-    }
+.about-wrap.style1 h2 {
+  @media (max-width: $breakpoint-lg) {
+    margin-top: 3rem;
+  }
 }
-.about-wrap.style2 .about-content{
-    @media(max-width:$breakpoint-lg)
-    {
-        margin-bottom: 3rem;
-    }
+.about-wrap.style2 .about-content {
+  @media (max-width: $breakpoint-lg) {
+    margin-bottom: 3rem;
+  }
 }
-.about-wrap.style2 .content-title h2,.about-wrap.style2 .content-title h3,.about-wrap.style2 .content-title p {
-    color: $white-color;
+.about-wrap.style2 .content-title h2,
+.about-wrap.style2 .content-title h3,
+.about-wrap.style2 .content-title p {
+  color: $white-color;
 }
-.about-wrap.style1 .about-content .content-title p,.about-wrap.style2 .about-content .content-title p {
-    margin: 20px 0 22px;
-    max-width: 100%;
+.about-wrap.style1 .about-content .content-title p,
+.about-wrap.style2 .about-content .content-title p {
+  margin: 20px 0 22px;
+  max-width: 100%;
 }
-.combo-btn
-{
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+.combo-btn {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }

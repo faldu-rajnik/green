@@ -1,65 +1,58 @@
-.cmpinfo-wrap
-{
+.cmpinfo-wrap {
     padding: 4rem 0;
     text-align: center;
-}
-.pos-rel {
-    position: relative;
-    z-index: 1;
-}
-.section-title.style1{
-    max-width: 830px;
-    margin: 0 auto;
-}
-.section-title h2{
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 1.3;
-    margin: 0;
-    display: inline-block;
-}
-.section-title.style1 p {
-    margin: 15px auto 2rem;
-    opacity: 1;
-}
-.bg-f {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #ddd;
-}
-.cmpinfo-bg-1 {
-    background-image: url(../../img/home-plantings-for-landscape-bed.jpg);
-}
-.cmpinfo-bg-2 {
-    background-image: url(../../img/home-glimpse-of-outdoor-living-area-and-landscape.jpg);
-}
-.cmpinfo-bg-3 {
-    background-image: url(../../img/home-water-feature-installed-in-landscape.jpg);
-}
-.cmpinfo-bg-4 {
-    background-image: url(../../img/home-landscape-lighting-for-outdoor-kitchen-build.jpg);
-}
-.cmpinfo-bg-5 {
-    background-image: url(../../img/home-shrub-growing-in-landscape.jpg);
-}
-.cmpinfo-bg-6 {
-    background-image: url(../../img/home-vertical-landscape-lighting-for-tree-in-landscape.jpg);
-}
-.cmpinfo-bg-7 {
-    background-image: url(../../img/home-outdoor-kitchen-living-area.jpg);
-}
-.cmpinfo-bg-8 {
-    background-image: url(../../img/home-landscape-lighting-front-yard.jpg);
-}
-.cmpinfo-item {
-    display: inline-block;
-    margin-bottom: 18px;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-}
-.cmpinfo-item.style1 {
-    height: 225px;
-    width: 100%;
-}
+    .section-title.style1 {
+      max-width: 830px;
+      margin: 0 auto;
+      h2 {
+        font-weight: 700;
+        line-height: 1.3;
+        margin: 0;
+        display: inline-block;
+      }
+      p {
+        margin: 15px auto 2rem;
+        opacity: 1;
+      }
+    }
+    .bg-f {
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #ddd;
+    }
+    .cmpinfo-bg-1 {
+      background-image: url(../../img/home-plantings-for-landscape-bed.jpg);
+    }
+    .cmpinfo-bg-2 {
+      background-image: url(../../img/home-glimpse-of-outdoor-living-area-and-landscape.jpg);
+    }
+    .cmpinfo-bg-3 {
+      background-image: url(../../img/home-water-feature-installed-in-landscape.jpg);
+    }
+    .cmpinfo-bg-4 {
+      background-image: url(../../img/home-landscape-lighting-for-outdoor-kitchen-build.jpg);
+    }
+    .cmpinfo-bg-5 {
+      background-image: url(../../img/home-shrub-growing-in-landscape.jpg);
+    }
+    .cmpinfo-bg-6 {
+      background-image: url(../../img/home-vertical-landscape-lighting-for-tree-in-landscape.jpg);
+    }
+    .cmpinfo-bg-7 {
+      background-image: url(../../img/home-outdoor-kitchen-living-area.jpg);
+    }
+    .cmpinfo-bg-8 {
+      background-image: url(../../img/home-landscape-lighting-front-yard.jpg);
+    }
+    .cmpinfo-item {
+      display: inline-block;
+      margin-bottom: 18px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      height: 225px;
+      width: 100%;
+    }
+  }
+  

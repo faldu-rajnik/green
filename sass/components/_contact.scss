@@ -1,83 +1,99 @@
-.contact-wrap{
-    background-color: $dark-bg;
+.contact-wrap {
     padding: 4rem 0px;
     color: $white-color;
-}
-.content-title {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    h4 span{
-        display: inline-block;
-        border-bottom: 1px solid $primary-bg;;
-        padding-bottom: 6px;
-        border-radius: 10px;
-        padding: 0.2rem 1rem;
-        margin-bottom: 1.5rem;
+    @media (max-width: $breakpoint-md) {
+      padding-bottom: 1rem;
     }
-}
-.lawngrid{
-    background: $green-gradient;
-    padding: 1rem;
-    border-radius: 10px;
-    margin-top: 2rem;
-    &:hover h3{
-        box-shadow: 0px 0px 5px 0px #0F251E;
-        background: #0F251E;
-        transition: .5s linear;
-    }
-    h3 {
-        margin-bottom: 1rem;
-        border-radius: 5px;
-        padding: 0.5rem;
-        display: flex;
-        align-items: center;
-        line-height: 1;
-        gap: 15px;
-        box-shadow: 0px 0px 5px 0px #0F251E;
-
-    }
-    ul.about-feature-list.list-style {
-        li {
-            margin-bottom: 1rem;
-            cursor: pointer;
-            &:hover{
-                color: #0F251E;
-                transition: .5s linear;
-                i {
-                    color: $white-color;
-                    transition: .5s linear;
-                }
-            }
-            i {
-                color: darkgreen;
-                margin-right: 10px;
-                font-size: 1.3rem;
-            }
-        }
-    }
-}
-.comp-map {
-    height: 700px;
-    border-radius: 15px;
-    position: relative;
-    iframe {
+    .comp-map {
+      height: 700px;
+      border-radius: 15px;
+      position: relative;
+      @media (max-width: $breakpoint-md) {
+        height: auto;
+      }
+      iframe {
         position: relative;
         width: 100%;
         height: 100%;
         border-radius: 15px;
+        @media (max-width: $breakpoint-md) {
+          height: 300px;
+        }
+      }
+      .contact-form {
+        background-color: #0d1613d9;
+        padding: 50px 20px 50px;
+        max-width: 100%;
+        border-radius: 15px;
+        position: absolute;
+        top: 40px;
+        left: 10%;
+        height: calc(100% - 80px);
+        -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+        right: 10%;
+        @media (max-width: $breakpoint-md) {
+          position: static;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .content-title {
+          position: relative;
+          max-width: 800px;
+          margin: 0 auto;
+          h4 span {
+            display: inline-block;
+            border-bottom: 1px solid $primary-bg;
+            padding-bottom: 6px;
+            border-radius: 10px;
+            padding: 0.2rem 1rem;
+            margin-bottom: 1.5rem;
+          }
+        }
+        .lawngrid {
+          background: $green-gradient;
+          padding: 1rem;
+          border-radius: 10px;
+          margin-top: 2rem;
+          &:hover h3 {
+            box-shadow: 0px 0px 5px 0px #0f251e;
+            background: #0f251e;
+            transition: 0.5s linear;
+          }
+          h3 {
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            line-height: 1;
+            gap: 15px;
+            box-shadow: 0px 0px 5px 0px #0f251e;
+            @media (max-width: $breakpoint-sm) {
+              font-size: 1.1rem;
+            }
+          }
+          ul.about-feature-list.list-style {
+            li {
+              margin-bottom: 1rem;
+              cursor: pointer;
+              &:hover {
+                color: #0f251e;
+                transition: 0.5s linear;
+                i {
+                  color: $white-color;
+                  transition: 0.5s linear;
+                }
+              }
+              i {
+                color: darkgreen;
+                margin-right: 10px;
+                font-size: 1.3rem;
+              }
+            }
+          }
+        }
+      }
     }
-}
-.comp-map .contact-form {
-    background-color: #0d1613d9;
-    padding: 50px 50px 50px;
-    max-width: 100%;
-    border-radius: 15px;
-    position: absolute;
-    top: 40px;
-    left: 10%;
-    height: calc(100% - 80px);
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-    right: 10%;
-}
+  }
+  

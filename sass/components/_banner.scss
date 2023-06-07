@@ -1,31 +1,27 @@
-    .banner {
-        background-color: $bg-vista-white;
-    background-image: url(./../../img/Line-Of-Grass-Transparent-PNG.png) ,url(./../../img/banner.png);
-    background-repeat: no-repeat,no-repeat;
+.banner {
+    background-color: $bg-vista-white;
+    background-image: url(./../../img/Line-Of-Grass-Transparent-PNG.png),
+      url(./../../img/banner.png);
+    background-repeat: no-repeat, no-repeat;
     padding: 10rem 0px;
-    background-position: bottom left,right center;
+    background-position: bottom left, right center;
     background-size: 100% auto;
-    @media(max-width:$breakpoint-md){
-
-        padding: 8rem 0px;
+    @media (max-width: $breakpoint-md) {
+      padding: 8rem 0px;
     }
-    @media(max-width:$breakpoint-sm){
-			
-        padding: 6rem 0px;
+    @media (max-width: $breakpoint-sm) {
+      padding: 6rem 0px;
     }
-    @media(max-width:$breakpoint-xs){
-
-        padding: 5rem 0px;
+    @media (max-width: $breakpoint-xs) {
+      padding: 5rem 0px;
     }
-    
-    .banner_inner{
-        max-width: 500px;
-        p{
-            margin-top: 1.5rem;
-            margin-bottom: 5rem;
-        }
+  
+    .banner_inner {
+      max-width: 500px;
+      p {
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+      }
     }
-
-}
-
-
+  }
+  

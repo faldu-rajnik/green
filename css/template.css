@@ -2881,6 +2881,14 @@ h6 {
   font-size: 1rem;
 }
 
+.bg-vista-white {
+  background-color: #f3f5f7;
+}
+
+.bg-racing-green {
+  background-color: #0D1613;
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -3687,7 +3695,6 @@ main {
 
 .why-choose-wrap {
   position: relative;
-  background-color: #0D1613;
   padding: 4rem 0px;
 }
 .why-choose-wrap.style1 .lc-item {
@@ -3764,7 +3771,6 @@ main {
   margin-bottom: 2rem;
 }
 .why-choose-wrap .content-title h2 {
-  font-size: 3rem;
   font-weight: 700;
   line-height: 1.3;
   margin: 0;
@@ -3778,6 +3784,9 @@ main {
 }
 .why-choose-wrap .content-subtitle {
   margin-bottom: 2rem;
+}
+.why-choose-wrap .content-subtitle h3 {
+  margin-bottom: 1rem;
 }
 .why-choose-wrap .lc-video-wrap {
   position: relative;
@@ -3847,24 +3856,17 @@ main {
   border-radius: 5px;
 }
 
-.bg-vista-white {
-  background-color: #f3f5f7;
-}
-
-.bg-racing-green {
-  background-color: #0D1613;
-}
-
-.about-wrap.style1, .about-wrap.style2 {
+.about-wrap.style1,
+.about-wrap.style2 {
   position: relative;
   padding: 4rem 0px;
 }
-
-.about-img-area {
+.about-wrap.style1 .about-img-area,
+.about-wrap.style2 .about-img-area {
   position: relative;
 }
-
-.about-img-area .about-shape-1 {
+.about-wrap.style1 .about-img-area .about-shape-1,
+.about-wrap.style2 .about-img-area .about-shape-1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3872,47 +3874,48 @@ main {
   transform: translate(-50%, -50%);
   z-index: 0;
 }
-
-.about-img-area .water-shape-2 {
+.about-wrap.style1 .about-img-area .water-shape-2,
+.about-wrap.style2 .about-img-area .water-shape-2 {
   position: absolute;
   top: 0;
   right: 20px;
 }
-
-.about-img-item {
+.about-wrap.style1 .about-img-area .about-img-item,
+.about-wrap.style2 .about-img-area .about-img-item {
   position: relative;
   height: 400px;
 }
 @media (max-width: 1200px) {
-  .about-img-item {
+  .about-wrap.style1 .about-img-area .about-img-item,
+  .about-wrap.style2 .about-img-area .about-img-item {
     height: auto;
   }
 }
-
-.bg-f {
+.about-wrap.style1 .about-img-area .about-img-item .bg-f,
+.about-wrap.style2 .about-img-area .about-img-item .bg-f {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ddd;
 }
-
-.ab-bg-1 {
+.about-wrap.style1 .about-img-area .about-img-item .ab-bg-1,
+.about-wrap.style2 .about-img-area .about-img-item .ab-bg-1 {
   background-image: url(../../img/home-grass-blades.jpg);
 }
-
-.ab-bg-2 {
+.about-wrap.style1 .about-img-area .about-img-item .ab-bg-2,
+.about-wrap.style2 .about-img-area .about-img-item .ab-bg-2 {
   background-image: url(../../img/home-weeds-in-lawn.jpg);
 }
-
-.ab-bg-3 {
+.about-wrap.style1 .about-img-area .about-img-item .ab-bg-3,
+.about-wrap.style2 .about-img-area .about-img-item .ab-bg-3 {
   background-image: url(../../img/home-patio-with-fire-pit.jpg);
 }
-
-.ab-bg-4 {
+.about-wrap.style1 .about-img-area .about-img-item .ab-bg-4,
+.about-wrap.style2 .about-img-area .about-img-item .ab-bg-4 {
   background-image: url(../../img/home-paver-patio-outdoor-living.jpg);
 }
-
-.about-img-item .about-bg-one {
+.about-wrap.style1 .about-img-area .about-img-item .about-bg-one,
+.about-wrap.style2 .about-img-area .about-img-item .about-bg-one {
   height: 300px;
   position: absolute;
   top: 0;
@@ -3921,13 +3924,14 @@ main {
   border-radius: 100px 0 0 0;
 }
 @media (max-width: 1200px) {
-  .about-img-item .about-bg-one {
+  .about-wrap.style1 .about-img-area .about-img-item .about-bg-one,
+  .about-wrap.style2 .about-img-area .about-img-item .about-bg-one {
     width: 100%;
     position: static;
   }
 }
-
-.about-img-item .about-bg-two {
+.about-wrap.style1 .about-img-area .about-img-item .about-bg-two,
+.about-wrap.style2 .about-img-area .about-img-item .about-bg-two {
   height: 300px;
   position: absolute;
   bottom: 0;
@@ -3939,18 +3943,14 @@ main {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 1200px) {
-  .about-img-item .about-bg-two {
+  .about-wrap.style1 .about-img-area .about-img-item .about-bg-two,
+  .about-wrap.style2 .about-img-area .about-img-item .about-bg-two {
     width: 100%;
     position: static;
   }
 }
 
-.content-title {
-  position: relative;
-}
-
 .about-wrap .content-title h2 {
-  font-size: 46px;
   font-weight: 700;
   line-height: 1.3;
   margin: 0;
@@ -3969,11 +3969,14 @@ main {
   }
 }
 
-.about-wrap.style2 .content-title h2, .about-wrap.style2 .content-title h3, .about-wrap.style2 .content-title p {
+.about-wrap.style2 .content-title h2,
+.about-wrap.style2 .content-title h3,
+.about-wrap.style2 .content-title p {
   color: #ffffff;
 }
 
-.about-wrap.style1 .about-content .content-title p, .about-wrap.style2 .about-content .content-title p {
+.about-wrap.style1 .about-content .content-title p,
+.about-wrap.style2 .about-content .content-title p {
   margin: 20px 0 22px;
   max-width: 100%;
 }
@@ -3991,94 +3994,116 @@ main {
   padding: 4rem 0;
   text-align: center;
 }
-
-.pos-rel {
-  position: relative;
-  z-index: 1;
-}
-
-.section-title.style1 {
+.cmpinfo-wrap .section-title.style1 {
   max-width: 830px;
   margin: 0 auto;
 }
-
-.section-title h2 {
-  font-size: 46px;
+.cmpinfo-wrap .section-title.style1 h2 {
   font-weight: 700;
   line-height: 1.3;
   margin: 0;
   display: inline-block;
 }
-
-.section-title.style1 p {
+.cmpinfo-wrap .section-title.style1 p {
   margin: 15px auto 2rem;
   opacity: 1;
 }
-
-.bg-f {
+.cmpinfo-wrap .bg-f {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ddd;
 }
-
-.cmpinfo-bg-1 {
+.cmpinfo-wrap .cmpinfo-bg-1 {
   background-image: url(../../img/home-plantings-for-landscape-bed.jpg);
 }
-
-.cmpinfo-bg-2 {
+.cmpinfo-wrap .cmpinfo-bg-2 {
   background-image: url(../../img/home-glimpse-of-outdoor-living-area-and-landscape.jpg);
 }
-
-.cmpinfo-bg-3 {
+.cmpinfo-wrap .cmpinfo-bg-3 {
   background-image: url(../../img/home-water-feature-installed-in-landscape.jpg);
 }
-
-.cmpinfo-bg-4 {
+.cmpinfo-wrap .cmpinfo-bg-4 {
   background-image: url(../../img/home-landscape-lighting-for-outdoor-kitchen-build.jpg);
 }
-
-.cmpinfo-bg-5 {
+.cmpinfo-wrap .cmpinfo-bg-5 {
   background-image: url(../../img/home-shrub-growing-in-landscape.jpg);
 }
-
-.cmpinfo-bg-6 {
+.cmpinfo-wrap .cmpinfo-bg-6 {
   background-image: url(../../img/home-vertical-landscape-lighting-for-tree-in-landscape.jpg);
 }
-
-.cmpinfo-bg-7 {
+.cmpinfo-wrap .cmpinfo-bg-7 {
   background-image: url(../../img/home-outdoor-kitchen-living-area.jpg);
 }
-
-.cmpinfo-bg-8 {
+.cmpinfo-wrap .cmpinfo-bg-8 {
   background-image: url(../../img/home-landscape-lighting-front-yard.jpg);
 }
-
-.cmpinfo-item {
+.cmpinfo-wrap .cmpinfo-item {
   display: inline-block;
   margin-bottom: 18px;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-}
-
-.cmpinfo-item.style1 {
   height: 225px;
   width: 100%;
 }
 
 .contact-wrap {
-  background-color: #0D1613;
   padding: 4rem 0px;
   color: #ffffff;
 }
-
-.content-title {
+@media (max-width: 1024px) {
+  .contact-wrap {
+    padding-bottom: 1rem;
+  }
+}
+.contact-wrap .comp-map {
+  height: 700px;
+  border-radius: 15px;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .contact-wrap .comp-map {
+    height: auto;
+  }
+}
+.contact-wrap .comp-map iframe {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+@media (max-width: 1024px) {
+  .contact-wrap .comp-map iframe {
+    height: 300px;
+  }
+}
+.contact-wrap .comp-map .contact-form {
+  background-color: rgba(13, 22, 19, 0.8509803922);
+  padding: 50px 20px 50px;
+  max-width: 100%;
+  border-radius: 15px;
+  position: absolute;
+  top: 40px;
+  left: 10%;
+  height: calc(100% - 80px);
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  right: 10%;
+}
+@media (max-width: 1024px) {
+  .contact-wrap .comp-map .contact-form {
+    position: static;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.contact-wrap .comp-map .contact-form .content-title {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
 }
-.content-title h4 span {
+.contact-wrap .comp-map .contact-form .content-title h4 span {
   display: inline-block;
   border-bottom: 1px solid #3a9943;
   padding-bottom: 6px;
@@ -4086,22 +4111,21 @@ main {
   padding: 0.2rem 1rem;
   margin-bottom: 1.5rem;
 }
-
-.lawngrid {
+.contact-wrap .comp-map .contact-form .lawngrid {
   background: -webkit-gradient(linear, right top, left top, from(#24a777), color-stop(35%, #24a75e), to(#24a74f));
   background: linear-gradient(-90deg, #24a777 0%, #24a75e 35%, #24a74f 100%);
   padding: 1rem;
   border-radius: 10px;
   margin-top: 2rem;
 }
-.lawngrid:hover h3 {
-  -webkit-box-shadow: 0px 0px 5px 0px #0F251E;
-          box-shadow: 0px 0px 5px 0px #0F251E;
-  background: #0F251E;
+.contact-wrap .comp-map .contact-form .lawngrid:hover h3 {
+  -webkit-box-shadow: 0px 0px 5px 0px #0f251e;
+          box-shadow: 0px 0px 5px 0px #0f251e;
+  background: #0f251e;
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
-.lawngrid h3 {
+.contact-wrap .comp-map .contact-form .lawngrid h3 {
   margin-bottom: 1rem;
   border-radius: 5px;
   padding: 0.5rem;
@@ -4113,53 +4137,32 @@ main {
           align-items: center;
   line-height: 1;
   gap: 15px;
-  -webkit-box-shadow: 0px 0px 5px 0px #0F251E;
-          box-shadow: 0px 0px 5px 0px #0F251E;
+  -webkit-box-shadow: 0px 0px 5px 0px #0f251e;
+          box-shadow: 0px 0px 5px 0px #0f251e;
 }
-.lawngrid ul.about-feature-list.list-style li {
+@media (max-width: 768px) {
+  .contact-wrap .comp-map .contact-form .lawngrid h3 {
+    font-size: 1.1rem;
+  }
+}
+.contact-wrap .comp-map .contact-form .lawngrid ul.about-feature-list.list-style li {
   margin-bottom: 1rem;
   cursor: pointer;
 }
-.lawngrid ul.about-feature-list.list-style li:hover {
-  color: #0F251E;
+.contact-wrap .comp-map .contact-form .lawngrid ul.about-feature-list.list-style li:hover {
+  color: #0f251e;
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
-.lawngrid ul.about-feature-list.list-style li:hover i {
+.contact-wrap .comp-map .contact-form .lawngrid ul.about-feature-list.list-style li:hover i {
   color: #ffffff;
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
-.lawngrid ul.about-feature-list.list-style li i {
+.contact-wrap .comp-map .contact-form .lawngrid ul.about-feature-list.list-style li i {
   color: darkgreen;
   margin-right: 10px;
   font-size: 1.3rem;
-}
-
-.comp-map {
-  height: 700px;
-  border-radius: 15px;
-  position: relative;
-}
-.comp-map iframe {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-}
-
-.comp-map .contact-form {
-  background-color: rgba(13, 22, 19, 0.8509803922);
-  padding: 50px 50px 50px;
-  max-width: 100%;
-  border-radius: 15px;
-  position: absolute;
-  top: 40px;
-  left: 10%;
-  height: calc(100% - 80px);
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-  right: 10%;
 }
 
 .footer-wrap.style2 {
@@ -4196,10 +4199,10 @@ main {
   opacity: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  background-color: #24A77E;
+  background-color: #24a77e;
 }
 .footer-wrap.style2 .footer-top .footer-widget .footer-menu li a:hover {
-  color: #24A77E;
+  color: #24a77e;
 }
 .footer-wrap.style2 .footer-top .footer-widget .footer-menu li a:hover:after {
   width: 100%;
@@ -4216,11 +4219,52 @@ main {
 }
 .footer-wrap.style2 .contact-item {
   position: relative;
-  padding-left: 42px;
+  padding-left: 0px;
   margin: 0 0 25px;
+}
+.footer-wrap.style2 .contact-item h5 {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .footer-wrap.style2 .contact-item h5 {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .footer-wrap.style2 .contact-item h5 {
+    text-align: center;
+  }
+}
+.footer-wrap.style2 .contact-item .contact-info {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .footer-wrap.style2 .contact-item .contact-info {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .footer-wrap.style2 .contact-item .contact-info {
+    text-align: center;
+  }
 }
 .footer-wrap.style2 .newsletter-wrap {
   padding: 3rem 0;
+}
+.footer-wrap.style2 .newsletter-wrap .newsletter-text {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 480px) {
+  .footer-wrap.style2 .newsletter-wrap .newsletter-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .footer-wrap.style2 .newsletter-wrap .newsletter-text {
+    margin-top: 0rem;
+  }
 }
 .footer-wrap.style2 .newsletter-wrap .newsletter-text h5 {
   line-height: 1.2;
@@ -4237,7 +4281,7 @@ main {
 }
 .footer-wrap.style2 .footer-bottom .social-profile.style2 li {
   display: inline-block;
-  margin: 0 8px 0 0;
+  margin: 0 0.5rem 0.5rem 0;
 }
 .footer-wrap.style2 .footer-bottom .social-profile.style2 li a {
   display: -webkit-box;
@@ -4259,12 +4303,17 @@ main {
   font-size: 18px;
   color: #fff;
 }
+.footer-wrap.style2 .footer-bottom .social-profile.style2 li a:hover {
+  background: #3a9943;
+  border: 1px solid #3a9943;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
 .footer-wrap.style2 .footer-bottom .copyright p {
   color: #fff;
-  margin: 0;
-  text-align: right;
+  margin: 0.5rem 0;
 }
 .footer-wrap.style2 .footer-bottom .copyright p a {
   color: #fff;
   text-decoration: underline;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=template.css.map */
