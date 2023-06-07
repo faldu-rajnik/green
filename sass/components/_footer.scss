@@ -1,0 +1,108 @@
+.footer-wrap.style2 {
+    position: relative;
+    .footer-top {
+        position: relative;
+        padding: 4rem 0;
+        .footer-widget {
+            margin-bottom: 30px;
+            .footer-widget-title {
+                color: #132728;
+                margin: 0 0 25px;
+                font-weight: 600;
+                line-height: 1;
+            }
+            .footer-menu li a {
+                color: #132728;
+                margin: 0 0 14px;
+                display: inline-block;
+                font-size: 15px;
+                position: relative;
+                &:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: "";
+                    width: 0;
+                    height: 1px;
+                    visibility: hidden;
+                    opacity: 0;
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    background-color: #24A77E;
+                }
+                &:hover {
+                    color: #24A77E;
+                    &:after {
+                        width: 100%;
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+                
+            }
+            
+            .list-style {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    list-style: none;
+                }
+            }
+        }
+
+    }
+    .contact-item {
+        position: relative;
+        padding-left: 42px;
+        margin: 0 0 25px;
+    }
+    .newsletter-wrap{
+        padding: 3rem 0;
+        .newsletter-text 
+    {
+        h5 {
+            line-height: 1.2;
+            margin: 0 0 10px;
+        }
+        p {
+            margin: 0;
+            line-height: 24px;
+        }
+    }
+    }
+    
+    .footer-bottom {
+        position: relative;
+        padding: 20px 0;
+        background-color: $bg-racing-green;
+        .social-profile.style2 li {
+            display: inline-block;
+            margin: 0 8px 0 0;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 36px;
+                height: 36px;
+                background-color: transparent;
+                border: 1px solid #fff;
+                border-radius: 50%;
+            
+                i {
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+        }
+        .copyright p {
+            color: #fff;
+            margin: 0;
+            text-align: right;
+            a {
+                color: #fff;
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -10,6 +10,7 @@
     padding: 4rem 0px;
 }
 
+
 .about-img-area {
     position: relative;
 }
@@ -29,6 +30,10 @@
 .about-img-item {
     position: relative;
     height: 400px;
+    @media(max-width:$breakpoint-lg)
+    {
+        height: auto;
+    }
 }
 .bg-f {
     background-position: center center;
@@ -55,6 +60,11 @@
     left: 0;
     width: 55%;
     border-radius: 100px 0 0 0;
+    @media(max-width:$breakpoint-lg)
+    {
+        width: 100%;
+        position: static;
+    }
 }
 
 .about-img-item .about-bg-two {
@@ -67,6 +77,11 @@
     border-radius: 0 0 100px 0;
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    @media(max-width:$breakpoint-lg)
+    {
+        width: 100%;
+        position: static;
+    }
 }
 
 .content-title {
@@ -79,10 +94,28 @@
     margin: 0;
     display: inline-block;
 }
+.about-wrap.style1 h2{
+    @media(max-width:$breakpoint-lg)
+    {
+        margin-top: 3rem;
+    }
+}
+.about-wrap.style2 .about-content{
+    @media(max-width:$breakpoint-lg)
+    {
+        margin-bottom: 3rem;
+    }
+}
 .about-wrap.style2 .content-title h2,.about-wrap.style2 .content-title h3,.about-wrap.style2 .content-title p {
     color: $white-color;
 }
 .about-wrap.style1 .about-content .content-title p,.about-wrap.style2 .about-content .content-title p {
     margin: 20px 0 22px;
     max-width: 100%;
+}
+.combo-btn
+{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }

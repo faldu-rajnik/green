@@ -96,6 +96,7 @@
 				display: inline-block;
 				line-height: 3.125rem;
 				margin-left: 1.5rem;
+				
 				>a {
 					position: relative;
 					font-family: $font-family_2;
@@ -110,6 +111,18 @@
 					-webkit-transition: color 0.3s ease-in-out;
 					-o-transition: color 0.3s ease-in-out;
 					transition: color 0.3s ease-in-out;
+					@media(min-width:$breakpoint-sm){
+			
+						font-size: .8rem;
+					}
+					@media(min-width:$breakpoint-md){
+			
+						font-size: .9rem;
+					}
+					@media(min-width:$breakpoint-lg){
+			
+						font-size: 1rem;
+					}
 				}
 				.menu-subs {
 					position: absolute;
@@ -148,6 +161,18 @@
 								-webkit-transition: all 0.3s ease-in-out;
 								-o-transition: all 0.3s ease-in-out;
 								transition: all 0.3s ease-in-out;
+								@media(min-width:$breakpoint-sm){
+			
+									font-size: .8rem;
+								}
+								@media(min-width:$breakpoint-md){
+						
+									font-size: .9rem;
+								}
+								@media(min-width:$breakpoint-lg){
+						
+									font-size: 1rem;
+								}
 								&:hover {
 									color: $primary-color;
 								}
@@ -190,6 +215,18 @@
 									-webkit-transition: color 0.3s ease-in-out;
 									-o-transition: color 0.3s ease-in-out;
 									transition: color 0.3s ease-in-out;
+									@media(min-width:$breakpoint-sm){
+			
+										font-size: .8rem;
+									}
+									@media(min-width:$breakpoint-md){
+							
+										font-size: .9rem;
+									}
+									@media(min-width:$breakpoint-lg){
+							
+										font-size: 1rem;
+									}
 									&:hover {
 										color: $primary-color;
 									}
@@ -226,6 +263,18 @@
 							-webkit-transition: all 0.3s ease-in-out;
 							-o-transition: all 0.3s ease-in-out;
 							transition: all 0.3s ease-in-out;
+							@media(min-width:$breakpoint-sm){
+			
+								font-size: .8rem;
+							}
+							@media(min-width:$breakpoint-md){
+					
+								font-size: .9rem;
+							}
+							@media(min-width:$breakpoint-lg){
+					
+								font-size: 1rem;
+							}
 						}
 						img.responsive {
 							max-width: 100%;
@@ -272,9 +321,9 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 17%;
-	flex: 0 0 17%;
+	// -webkit-box-flex: 0;
+	// -ms-flex: 0 0 17%;
+	// flex: 0 0 17%;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
