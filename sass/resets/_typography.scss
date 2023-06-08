@@ -27,3 +27,9 @@ h6 {
 {
     background-color: $bg-racing-green;
 }
+main#main-container, main#main-container > article.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}

@@ -1,267 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700;800;900&display=swap");
-@font-face {
-  font-family: "flaticon";
-  src: url("./../../flaticons/flaticon.ttf") format("truetype");
-}
-i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
-  font-family: flaticon !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.flaticon-book:before {
-  content: "\f101";
-}
-
-.flaticon-clock:before {
-  content: "\f102";
-}
-
-.flaticon-right-arrow:before {
-  content: "\f103";
-}
-
-.flaticon-contact-book:before {
-  content: "\f104";
-}
-
-.flaticon-play:before {
-  content: "\f105";
-}
-
-.flaticon-house:before {
-  content: "\f106";
-}
-
-.flaticon-watering-can:before {
-  content: "\f107";
-}
-
-.flaticon-idea:before {
-  content: "\f108";
-}
-
-.flaticon-trowel:before {
-  content: "\f109";
-}
-
-.flaticon-gardening:before {
-  content: "\f10a";
-}
-
-.flaticon-growth:before {
-  content: "\f10b";
-}
-
-.flaticon-agriculture:before {
-  content: "\f10c";
-}
-
-.flaticon-home:before {
-  content: "\f10d";
-}
-
-.flaticon-gardening-tools:before {
-  content: "\f10e";
-}
-
-.flaticon-farming:before {
-  content: "\f10f";
-}
-
-.flaticon-writing:before {
-  content: "\f110";
-}
-
-.flaticon-page:before {
-  content: "\f111";
-}
-
-.flaticon-blog:before {
-  content: "\f112";
-}
-
-.flaticon-image:before {
-  content: "\f113";
-}
-
-.flaticon-gardening-1:before {
-  content: "\f114";
-}
-
-.flaticon-inverted-commas:before {
-  content: "\f115";
-}
-
-.flaticon-growth-1:before {
-  content: "\f116";
-}
-
-.flaticon-workers:before {
-  content: "\f117";
-}
-
-.flaticon-goal:before {
-  content: "\f118";
-}
-
-.flaticon-sprout:before {
-  content: "\f119";
-}
-
-.flaticon-watering-can-1:before {
-  content: "\f11a";
-}
-
-.flaticon-watering-plants:before {
-  content: "\f11b";
-}
-
-.flaticon-garden:before {
-  content: "\f11c";
-}
-
-.flaticon-lawn-mower:before {
-  content: "\f11d";
-}
-
-.flaticon-next:before {
-  content: "\f11e";
-}
-
-.flaticon-left-arrow:before {
-  content: "\f11f";
-}
-
-.flaticon-down-arrow:before {
-  content: "\f120";
-}
-
-.flaticon-left-quote:before {
-  content: "\f121";
-}
-
-.flaticon-right-quotation-mark:before {
-  content: "\f122";
-}
-
-.flaticon-quote:before {
-  content: "\f123";
-}
-
-.flaticon-right-quote-sign:before {
-  content: "\f124";
-}
-
-.flaticon-left-quote-1:before {
-  content: "\f125";
-}
-
-.flaticon-right-quote:before {
-  content: "\f126";
-}
-
-.flaticon-left-arrow-1:before {
-  content: "\f127";
-}
-
-.flaticon-phone-call:before {
-  content: "\f128";
-}
-
-.flaticon-telephone:before {
-  content: "\f129";
-}
-
-.flaticon-call:before {
-  content: "\f12a";
-}
-
-.flaticon-mail:before {
-  content: "\f12b";
-}
-
-.flaticon-mail-1:before {
-  content: "\f12c";
-}
-
-.flaticon-placeholder:before {
-  content: "\f12d";
-}
-
-.flaticon-maps-and-flags:before {
-  content: "\f12e";
-}
-
-.flaticon-plus:before {
-  content: "\f12f";
-}
-
-.flaticon-minus-sign:before {
-  content: "\f130";
-}
-
-.flaticon-remove:before {
-  content: "\f131";
-}
-
-.flaticon-garden-tools:before {
-  content: "\f132";
-}
-
-.flaticon-rating-1:before {
-  content: "\f133";
-}
-
-.flaticon-garden-tool:before {
-  content: "\f134";
-}
-
-.flaticon-shovel-and-rake:before {
-  content: "\f135";
-}
-
-.flaticon-flower-pot:before {
-  content: "\f136";
-}
-
-.flaticon-flower-pot-1:before {
-  content: "\f137";
-}
-
-.flaticon-add:before {
-  content: "\f138";
-}
-
-.flaticon-right-arrow-1:before {
-  content: "\f139";
-}
-
-.flaticon-left-arrow-2:before {
-  content: "\f13a";
-}
-
-.flaticon-linkedin:before {
-  content: "\f13b";
-}
-
-.flaticon-scissors:before {
-  content: "\f13c";
-}
-
-.flaticon-note:before {
-  content: "\f13d";
-}
-
-.flaticon-pencil:before {
-  content: "\f13e";
-}
-
 .btn-primary {
   font-size: 1rem;
   color: #ffffff;
@@ -2889,6 +2626,13 @@ h6 {
   background-color: #0D1613;
 }
 
+main#main-container, main#main-container > article.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -3117,6 +2861,10 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
 }
 .header .menu > ul > li {
   display: inline-block;
@@ -3664,7 +3412,7 @@ main {
 }
 .banner {
   background-color: #f3f5f7;
-  background-image: url(./../../img/Line-Of-Grass-Transparent-PNG.png), url(./../../img/banner.png);
+  background-image: url(/files/template/images/new-home/Line-Of-Grass-Transparent-PNG.png), url(/files/template/images/new-home/banner.png);
   background-repeat: no-repeat, no-repeat;
   padding: 10rem 0px;
   background-position: bottom left, right center;
@@ -3809,7 +3557,7 @@ main {
   background-color: #ddd;
 }
 .why-choose-wrap .lc-video-wrap .lc-bg-1 {
-  background-image: url(../img/wh-bg.jpg);
+  background-image: url(/files/template/images/new-home/wh-bg.jpg);
 }
 .why-choose-wrap .counter-about {
   padding-top: 5rem;
@@ -3844,7 +3592,7 @@ main {
   -webkit-text-stroke: 1.5px #ffffff;
   -webkit-text-fill-color: transparent;
 }
-.why-choose-wrap .counter-about .fun-facts-card i {
+.why-choose-wrap .counter-about .fun-facts-card img {
   color: #ffffff;
   font-size: 2rem;
   line-height: 1;
@@ -3900,19 +3648,19 @@ main {
 }
 .about-wrap.style1 .about-img-area .about-img-item .ab-bg-1,
 .about-wrap.style2 .about-img-area .about-img-item .ab-bg-1 {
-  background-image: url(../../img/home-grass-blades.jpg);
+  background-image: url(/files/template/images/new-home/home-grass-blades.jpg);
 }
 .about-wrap.style1 .about-img-area .about-img-item .ab-bg-2,
 .about-wrap.style2 .about-img-area .about-img-item .ab-bg-2 {
-  background-image: url(../../img/home-weeds-in-lawn.jpg);
+  background-image: url(/files/template/images/new-home/home-weeds-in-lawn.jpg);
 }
 .about-wrap.style1 .about-img-area .about-img-item .ab-bg-3,
 .about-wrap.style2 .about-img-area .about-img-item .ab-bg-3 {
-  background-image: url(../../img/home-patio-with-fire-pit.jpg);
+  background-image: url(/files/template/images/new-home/home-patio-with-fire-pit.jpg);
 }
 .about-wrap.style1 .about-img-area .about-img-item .ab-bg-4,
 .about-wrap.style2 .about-img-area .about-img-item .ab-bg-4 {
-  background-image: url(../../img/home-paver-patio-outdoor-living.jpg);
+  background-image: url(/files/template/images/new-home/home-paver-patio-outdoor-living.jpg);
 }
 .about-wrap.style1 .about-img-area .about-img-item .about-bg-one,
 .about-wrap.style2 .about-img-area .about-img-item .about-bg-one {
@@ -4015,28 +3763,28 @@ main {
   background-color: #ddd;
 }
 .cmpinfo-wrap .cmpinfo-bg-1 {
-  background-image: url(../../img/home-plantings-for-landscape-bed.jpg);
+  background-image: url(/files/template/images/new-home/home-plantings-for-landscape-bed.jpg);
 }
 .cmpinfo-wrap .cmpinfo-bg-2 {
-  background-image: url(../../img/home-glimpse-of-outdoor-living-area-and-landscape.jpg);
+  background-image: url(/files/template/images/new-home/home-glimpse-of-outdoor-living-area-and-landscape.jpg);
 }
 .cmpinfo-wrap .cmpinfo-bg-3 {
-  background-image: url(../../img/home-water-feature-installed-in-landscape.jpg);
+  background-image: url(/files/template/images/new-home/home-water-feature-installed-in-landscape.jpg);
 }
 .cmpinfo-wrap .cmpinfo-bg-4 {
-  background-image: url(../../img/home-landscape-lighting-for-outdoor-kitchen-build.jpg);
+  background-image: url(/files/template/images/new-home/home-landscape-lighting-for-outdoor-kitchen-build.jpg);
 }
 .cmpinfo-wrap .cmpinfo-bg-5 {
-  background-image: url(../../img/home-shrub-growing-in-landscape.jpg);
+  background-image: url(/files/template/images/new-home/home-shrub-growing-in-landscape.jpg);
 }
 .cmpinfo-wrap .cmpinfo-bg-6 {
-  background-image: url(../../img/home-vertical-landscape-lighting-for-tree-in-landscape.jpg);
+  background-image: url(/files/template/images/new-home/home-vertical-landscape-lighting-for-tree-in-landscape.jpg);
 }
 .cmpinfo-wrap .cmpinfo-bg-7 {
-  background-image: url(../../img/home-outdoor-kitchen-living-area.jpg);
+  background-image: url(/files/template/images/new-home/home-outdoor-kitchen-living-area.jpg);
 }
 .cmpinfo-wrap .cmpinfo-bg-8 {
-  background-image: url(../../img/home-landscape-lighting-front-yard.jpg);
+  background-image: url(/files/template/images/new-home/home-landscape-lighting-front-yard.jpg);
 }
 .cmpinfo-wrap .cmpinfo-item {
   display: inline-block;
